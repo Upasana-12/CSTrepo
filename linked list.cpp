@@ -11,8 +11,8 @@ struct node* create(int n)
     struct node* head=0;
 	struct node* temp=0;
 	struct node* p=0;
-	int i,x;
-	for(i=0;i<n;i++)
+	int j,x;
+	for(j=0;j<n;j++)
 	{
 	struct node* new_node=(struct node*)malloc(sizeof(struct node));
 	scanf("%d",&x);
